@@ -1,9 +1,10 @@
 package pushnotification;
 
-import com.example.androidapidemo.R;
-
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.example.androidapidemo.R;
 
 public class PushNotificationDemo extends Activity {
 	
@@ -13,7 +14,7 @@ public class PushNotificationDemo extends Activity {
 		
 		setContentView(R.layout.push_notification);
 		
-		Toast.maketext(this, "Testin", Toast.LENTH).show();
+		Toast.makeText(this, "Testin", Toast.LENGTH_LONG).show();
 		
 		
 	}
