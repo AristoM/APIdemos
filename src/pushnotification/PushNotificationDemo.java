@@ -13,6 +13,8 @@ public class PushNotificationDemo extends Activity {
 		
 		setContentView(R.layout.push_notification);
 		
+		Toast.maketext(this, "Testin", Toast.LENTH).show();
+		
 		
 	}
 
