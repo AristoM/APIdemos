@@ -12,7 +12,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 
-		Toast.makeText(context, "Don't panik but your time is up!!!!.",
+		Toast.makeText(context, "Don't panic but your time is up!!!!.",
 				Toast.LENGTH_LONG).show();
 		Intent broad = new Intent(context, BroadCastReceiver.class);
 		TaskStackBuilder stackBuilder = TaskStackBuilder.create(context);

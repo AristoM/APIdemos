@@ -14,7 +14,7 @@ public class PushNotificationDemo extends Activity {
 		
 		setContentView(R.layout.push_notification);
 		
-		Toast.makeText(this, "Testin", Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "For testing", Toast.LENGTH_LONG).show();
 		
 		
 	}
