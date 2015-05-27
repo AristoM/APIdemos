@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.example.androidapidemo.R;
 
-public class BroadCastReceiver extends Activity {
+public class BroadCastReceiverActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
